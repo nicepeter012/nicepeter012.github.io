@@ -23,9 +23,6 @@ p {
   margin-top: 5px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-
 
 /*contactform part one for the middle section*/
 .form1 {
@@ -236,10 +233,4 @@ footer {
     margin-left: 50px;
     margin-right: 50px;
   }
-
-
-  @media only screen and (min-width: 1000px) {
-    .scooter {
-      display: inline-flex;
-      float: left;
-    }
+}
