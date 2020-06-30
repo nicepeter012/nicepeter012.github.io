@@ -1,0 +1,245 @@
+body {
+  background-color: #F7F7FF;
+  margin: 0px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 60px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+/*contactform part one for the middle section*/
+.form1 {
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 0px solid #555;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px #ccc;
+  padding: 20px;
+  background-color: white;
+
+
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #ccc;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #57eeab;
+  border-radius: 9px;
+  border: 0;
+  color: black;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.p2 {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin: 9px;
+}
+
+label {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.p3,
+.p4 {
+  font-family: Montserrat;
+  font-size: 15px;
+  padding-top: 5px;
+  margin: 0px;
+}
+
+.p4 {
+  color: #ff8480
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 0px;
+
+}
+
+footer {
+  background-color: #fffd8c;
+}
+
+.p5 {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.hours {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border: 2px solid #ccc;
+  transition: all 0.3s;
+  padding: 13px;
+  width: 30%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.city {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border: 2px solid #ccc;
+  transition: all 0.3s;
+  padding: 13px;
+  width: 60%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+
+/*contact form for the second part */
+.form2 {
+  margin: 20px;
+}
+
+[type="calculate"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 90%;
+  text-align: center;
+  background: #ff8480;
+  border-radius: 9px;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.i1 {
+  margin-left: 40px;
+
+}
+
+/*breakpoint*/
+
+
+@media only screen and (min-width: 600px) {
+
+  footer {
+    width: auto;
+
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .form1 {
+    margin: 80px;
+    text-align: center;
+  }
+
+  [type="calculate"] {
+
+    width: 30%;
+    height: 40px;
+    text-align: center;
+
+  }
+
+  .city {
+    width: 30%;
+    text-align: center;
+  }
+
+  .hours {
+    width: 20%;
+    text-align: center;
+  }
+
+  .icons {
+    margin-left: 30%;
+  }
+
+  .scooter {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .form2 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
+  @media only screen and (min-width: 1000px) {
+    .scooter {
+      display: inline-flex;
+      float: left;
+    }
